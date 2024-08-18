@@ -44,7 +44,7 @@ const darkTheme = generateThemeObject(colors, shadeMapping, true);
 const themes = {
   light: {
     ...lightTheme,
-    white: "#fff",
+    white: "#ffffff",
   },
   dark: {
     ...darkTheme,
@@ -69,6 +69,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [createThemes(themes)],
 };
+
 export default config;

@@ -84,7 +84,7 @@ const Products = () => {
                   className="mb-3 rounded-2xl w-36 h-36"
                 >
                      <Image 
-                        src={`https://s3-inventorymanagement-rh.s3.eu-west-2.amazonaws.com/product${Math.floor(Math.random() * 3) +1}.png"`}
+                        src={`https://s3-inventorymanagement-rh.s3.eu-west-2.amazonaws.com/product${Math.floor(Math.random() * 3) +1}.png`}
                         alt={product.name}
                         width={150}
                         height={150}
